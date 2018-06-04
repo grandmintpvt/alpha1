@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/amit/earn-it/android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/amit/earn-it/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/amit/earn-it/android/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/amit/earn-it/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]
