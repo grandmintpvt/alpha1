@@ -11,7 +11,10 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var config = require('./config/database');
 var app = express();
-mongoose.connect(config.database)
+mongoose.connect(config.database).then(
+  () => { console.log("Mongodb Connected.") },
+  err => { console.log("Mongodb Connection error: "+err)}
+);
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'jade');
